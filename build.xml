@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="run" name="PV080Example" >
+
+  
+	<target name="compile" description="Compiles the examples.">
+		<javac 
+			srcdir="./"
+			includes="*.java"
+			includeantruntime="true"
+			sourcepath=""
+			>
+		</javac>
+	</target>
+</project>
